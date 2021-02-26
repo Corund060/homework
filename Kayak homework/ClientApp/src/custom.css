@@ -1,0 +1,124 @@
+body, html {
+    height: 100%;
+    background-color: #fafafc;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: white;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+    color: white;
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+    color: white;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: white;
+}
+
+.bg {   
+    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg");   
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width:90%;
+}
+
+.searchDiv {
+    height: 150px;
+    background-image: linear-gradient(to left, #e8381b, #ff690f);
+    position: relative;
+}
+
+.searchForm {    
+    position: absolute;
+    top: 35%;
+    max-height: 400px;
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.iconAndSearch{
+    color:white;
+}
+
+.bi-film {
+    position: absolute;
+    top: 14px;
+    left: 10px;
+    width:20px;
+    height:20px;    
+}
+
+.bi-search {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    color: #ff690f;
+    background-color: white;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.searchField {
+    color: white;
+    padding: 12px;
+    padding-left: 40px;
+    width: 92%;
+    background-image: linear-gradient(to right, #ff8649, #ef634d);
+    border: none;
+    font-weight: 700;
+}
+
+    .searchField:focus{
+        background: white;
+        color: black;
+        width:100%;
+    }
+
+.autoCompleteField {
+    max-height: 400px;
+    overflow-y: scroll;
+    padding-right: 17px;
+    box-sizing: content-box;
+    width: 105%;
+    background: white;
+}
+
+
+.movie {
+    width: 100%;           
+    margin:10px;
+}
+
+    .movie:hover{
+        background-color:lightgrey;
+    }
+
+.movieName {
+    color: black;
+    font-weight:700;
+    margin-bottom: 0px;
+}
+
+.movieInfo {
+    color: darkslategray;
+    font-size: 10px;
+    margin-bottom: 0px;
+}
+
+.searchResults {
+    background: #fafafc;
+    height:70vh;
+}
+
