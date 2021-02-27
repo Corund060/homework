@@ -12,14 +12,7 @@ namespace Kayak_homework.Controllers
     [ApiController]
     [Route("[controller]")]
     public class MovieDbController : ControllerBase
-    {        
-        /*private readonly ILogger<MovieDbController> _logger;
-
-        public MovieDbController(ILogger<MovieDbController> logger)
-        {
-            _logger = logger;
-        }*/
-
+    {                
         [HttpGet]
         public string Get(string query)
         {                                

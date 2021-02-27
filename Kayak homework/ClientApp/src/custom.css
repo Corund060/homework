@@ -19,6 +19,15 @@ body, html {
     color: white;
 }
 
+
+li {
+    list-style-type:none;
+}
+    li:hover {
+        background-color: lightgrey;
+    }
+
+
 .bg {   
     background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg");   
     height: 100%;
@@ -35,21 +44,24 @@ body, html {
     height: 150px;
     background-image: linear-gradient(to left, #e8381b, #ff690f);
     position: relative;
+    border:none;
 }
 
-.searchForm {    
+.searchForm {
     position: absolute;
     top: 35%;
-    max-height: 400px;
+    height: auto;
     overflow: hidden;
     width: 80%;
     margin: 0 auto;
     left: 0;
     right: 0;
+    border: none;
 }
 
-.iconAndSearch{
-    color:white;
+.iconAndSearch {
+    color: white;
+    border: none;
 }
 
 .bi-film {
@@ -66,7 +78,7 @@ body, html {
     height: 50px;
     color: #ff690f;
     background-color: white;
-    padding: 5px;
+    padding: 15px;
     border-radius: 2px;
 }
 
@@ -78,36 +90,45 @@ body, html {
     background-image: linear-gradient(to right, #ff8649, #ef634d);
     border: none;
     font-weight: 700;
+    outline-color:antiquewhite;
 }
 
     .searchField:focus{
         background: white;
         color: black;
         width:100%;
+        border:none;
     }
 
+.placeHolder {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    font-size: small;
+    font-weight:500;
+    color:grey;
+    visibility:hidden;
+}
+
 .autoCompleteField {
-    max-height: 400px;
-    overflow-y: scroll;
-    padding-right: 17px;
-    box-sizing: content-box;
     width: 105%;
+    border:none;
     background: white;
+    -webkit-box-shadow: 8px 8px 6px -6px grey;
+    -moz-box-shadow: 8px 8px 6px -6px grey;
+    box-shadow: 8px 8px 6px -6px grey;
 }
 
 
 .movie {
-    width: 100%;           
-    margin:10px;
+    width: 100%;
+    padding: 10px;
 }
-
-    .movie:hover{
-        background-color:lightgrey;
-    }
 
 .movieName {
     color: black;
-    font-weight:700;
+    font-size: 14px;
+    font-weight: 700;
     margin-bottom: 0px;
 }
 
@@ -119,6 +140,6 @@ body, html {
 
 .searchResults {
     background: #fafafc;
-    height:70vh;
+    height:80vh;
 }
 
