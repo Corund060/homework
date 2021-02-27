@@ -24,8 +24,7 @@ class Autocomplete extends Component {
                 </ul>
             </div>
         )
-    }
-    
+    }    
 }
 
 export default Autocomplete;
