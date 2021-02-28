@@ -19,14 +19,12 @@ body, html {
     color: white;
 }
 
-
 li {
     list-style-type:none;
 }
     li:hover {
         background-color: lightgrey;
     }
-
 
 .bg {   
     background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg");   
