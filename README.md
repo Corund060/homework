@@ -5,7 +5,7 @@ Sukurkite paieškos _autocomplete_ web komponentą, kurio pagalba vartotojas gal
 https://github.com/uiacademy/homework/blob/master/README.md
 
 
-Realisation:
+Mano sprendimas:
 
 ![Default state](before.png?raw=true "Default state")
 ![Results state](search.png?raw=true "Results state")
